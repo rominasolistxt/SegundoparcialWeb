@@ -1,0 +1,30 @@
+.texto-trama {
+    font-family: "Cardo", serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.ubicacion-textos-index {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+}
+
+
+.img-index {
+    border-radius: 20px;
+    width: 700px;
+    height: auto;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transition: box-shadow 0.4s ease;
+}
+
+
+.img-index:hover {
+    border-radius: 15px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+
+}

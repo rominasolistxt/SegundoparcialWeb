@@ -1,0 +1,61 @@
+.main--formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.form-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  font-family: "Cardo", serif;
+  font-size: 15px;
+  width: 500px;
+}
+
+.form-contacto label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.form-contacto input,
+.form-contacto textarea {
+  padding: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 2px solid #000000;
+  background-color: transparent;
+}
+.form-contacto button {
+  background-color: #9f1212;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contenedor-form-redes {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.section-redes {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: center;  
+  font-family: "Cardo", serif;
+  font-size: 15px;
+}

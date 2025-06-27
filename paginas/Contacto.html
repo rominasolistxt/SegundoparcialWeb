@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="titulo principal">Los Soprano</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../estilos/estilos.css"> <!-- CSS general -->
+  <link rel="stylesheet" href="../estilos/contacto.css"> <!-- CSS solo para contacto -->
+</head>
+
+
+<body class="fondo">
+  <header>
+    <nav class="navbar">
+      <a class="item-navbar" href="index.html">Inicio</a> 
+      <a class="item-navbar" href="sobreLaSerie.html">Sobre la Serie</a>
+      <a class="item-navbar" href="ElencoyPersonajes.html">Elenco</a>
+      <a class="item-navbar" href="TempyEp.html">Temporadas</a>
+      <a class="item-navbar" href="EventosyCur.html">Curiosidades</a>
+      <a class="item-navbar" href="Contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+<main class="main-contacto">
+  <section class="section-contacto">
+    <h2>Contacto</h2>
+
+    <div class="contenedor-form-redes">
+
+      <form action="confirmacion.html" method="GET" class="form-contacto">
+        <h2>Formulario de contacto</h2>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" maxlength="1000" required></textarea>
+
+        <button type="submit">Enviar formulario</button>
+      </form>
+
+      <section class="section-redes">
+        <p>Redes sociales oficiales:</p>
+        <ul>
+          <li><a href="https://www.instagram.com/thesopranos" target="_blank">Instagram</a></li>
+          <li><a href="https://www.facebook.com/TheSopranos/" target="_blank">Facebook</a></li> 
+        </ul>
+      </section>
+
+    </div> 
+
+  </section>
+</main>
+  <footer>
+    <p>&copy; Pagina no oficial de Los Soprano. 2025.</p>
+  </footer>
+</body>
+
+</html>

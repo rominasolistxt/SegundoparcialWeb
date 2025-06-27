@@ -1,0 +1,74 @@
+.fondo {
+    background: linear-gradient(to bottom, #0e0700, #6f0505); 
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+header {
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/967/209/166/tv-show-the-sopranos-wallpaper-preview.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    background-position: center;
+    padding-top: 10px;
+    opacity: 0.79;
+}
+
+.navbar {
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-navbar {
+    color: #fff;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  padding: 10px 12px;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: border-color 0.5s, background-color 0.5s, color 0.5s;
+  font-size: 15px;
+}
+
+.item-navbar:hover {
+  background-color: #fff;
+  border-color: transparent;
+  color: #444;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 1;
+      font-family: "Cardo", serif;
+}
+
+main {
+    padding: 2rem;
+}
+
+
+footer {
+    color: blanchedalmond;
+    text-align: center;
+    padding: 1;
+    margin-top: 2;
+}
+
+ul li {
+    list-style: circle;
+    margin-left: 1.5;
+    list-style: rgb(255, 255, 255)
+}
+
+ol li {
+    font-size: 30 px;
+}

@@ -1,0 +1,19 @@
+.sobre {
+    font-family: "Cardo", serif;
+    font-size: 20px;
+}
+
+.articulos{
+    text-align: justify;
+    text-shadow: 10px;
+}
+
+.locacion{
+    display: flex;
+    position: left;
+}
+
+.video-locacion{
+    display: flex;
+    position: right;
+}
