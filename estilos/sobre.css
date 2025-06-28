@@ -1,19 +1,41 @@
 .sobre {
-    font-family: "Cardo", serif;
-    font-size: 20px;
+  font-family: "Cardo", serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px; 
+  flex-wrap: wrap; 
 }
 
-.articulos{
-    text-align: justify;
-    text-shadow: 10px;
+.sinopsis-box,
+.locacion-box {
+  flex: 1;
+  min-width: 300px;
+  max-width: 48%;
+  text-align: justify;
+  font-family: "Cardo", serif;
+  font-size: 25px;
+  
+}
+
+.sinopsis-box h3,
+.locacion-box h3 {
+  text-align: center;
+}
+
+.articulos {
+  text-align: justify;
+  font-family: "Cardo", serif;
+  font-size: 20px;
 }
 
 .locacion{
-    display: flex;
-    position: left;
+  font-family: "Cardo", serif;
+  font-size: 20px;
 }
 
-.video-locacion{
-    display: flex;
-    position: right;
+.video-locacion {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
