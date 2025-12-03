@@ -1,7 +1,8 @@
 .main--formulario {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start; 
+  padding-top: 80px;       
   min-height: 100vh;
 }
 
@@ -10,10 +11,16 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  text-align: center;
+  text-align: left;
   font-family: "Cardo", serif;
-  font-size: 15px;
-  width: 500px;
+  font-size: 16px;
+  width: 450px;
+  max-width: 90%; 
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.28); 
+  border-radius: 14px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
 
 .form-contacto label {
@@ -22,39 +29,69 @@
 
 .form-contacto input,
 .form-contacto textarea {
-  padding: 10px;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 16px;
+  padding: 12px;
+  width: 100%;
+  margin-bottom: 18px;
   border-radius: 8px;
-  border: 2px solid #000000;
-  background-color: transparent;
+  border: 1px solid #b88b8b;
+  background-color: rgba(255, 255, 255, 0.06);
+  font-size: 15px;
+  transition: border-color 0.3s, background-color 0.3s;
+  color: #ffff; /* correccion del segundo parcial */
 }
 .form-contacto button {
   background-color: #9f1212;
   color: white;
-  padding: 12px;
+  padding: 14px 20px;
   border: none;
   border-radius: 8px;
   font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  font-size: 16px;
+  width: 180px;
+  transition: background-color 0.3s, transform 0.2s;
 }
 
 .contenedor-form-redes {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
-  gap: 50px;
+  gap: 100px;
+  width: 100%;
+  margin-top: 40px;
 }
 
 .section-redes {
-  width: 200px;
+  width: 250px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-      font-family: "Cardo", serif;
-    font-size: 20px;
-    text-align: justify;
+  font-family: "Cardo", serif;
+  font-size: 20px;
+  text-align: justify;
+  
+}
+
+.form-contacto input::placeholder,
+.form-contacto textarea::placeholder {
+  color: #d4c4c4;
+}
+
+.form-contacto button:hover {
+  background-color: #b61616;
+  transform: translateY(-2px);
+}
+
+.form-contacto button:active {
+  transform: translateY(0);
+}
+
+.section-redes a {
+  color: #DAF8F3; 
+  font-weight: bold;
+}
+
+.section-redes a:hover {
+  color: #ffffff;
+  text-decoration: underline;
 }
